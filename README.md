@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Set Up
+
+### Prerequisites
+- You'll need to have `yarn` installed.
+- You'll also need to have `node` installed on your machine
+- `node` version >= 12.0.0
+```bash
+yarn install
+# and then to run it in dev mode
+yarn dev
+```
+
 ## Getting Started
 
 First, run the development server:
