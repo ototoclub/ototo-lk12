@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ototoclub from "../public/images/ototoclub.png";
 import styles from "../styles/Home.module.css";
+import { Button } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
   return (
@@ -28,6 +29,9 @@ const Home: NextPage = () => {
       </main>
 
       <div>Hello</div>
+
+      <Button variant="primary"> Hello World </Button>
+      <Button variant="outlined">HELLO</Button>
 
       <footer className={styles.footer}>
         <a
