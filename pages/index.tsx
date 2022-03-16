@@ -26,6 +26,7 @@ const Home: NextPage = () => {
         />
         <h1 className={styles.title}>Coming Soon</h1>
       </main>
+			<div></div>
 
       <footer className={styles.footer}>
         <a
