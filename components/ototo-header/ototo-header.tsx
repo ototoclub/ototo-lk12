@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./ototo-header.module.css";
-import { Heading, Text } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
 import { Token } from "@chakra-ui/styled-system/src/utils/index";
 import * as CSS from "csstype";
 
