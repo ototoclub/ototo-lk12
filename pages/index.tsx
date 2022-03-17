@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ototoclub from "../public/images/ototoclub.png";
 import styles from "../styles/Home.module.css";
-import { Button } from "@chakra-ui/react";
+import { Button, Text } from "@chakra-ui/react";
 
 const Home: NextPage = () => {
   return (
@@ -30,8 +30,13 @@ const Home: NextPage = () => {
 
       <div>Hello</div>
 
-      <Button variant="primary"> Hello World </Button>
-      <div
+			<Button variant="primary"><Text fontWeight="bold">JOIN DISCORD</Text></Button>
+
+
+			<Text fontWeight="bold" fontFamily="Karla">HELLO WORLD</Text>
+			<Text >HELLO WORLD</Text>
+
+			<div
         style={{
           width: "350px",
           height: "350px",
