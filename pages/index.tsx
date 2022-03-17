@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import ototoclub from "../public/images/ototoclub.png";
 import styles from "../styles/Home.module.css";
-import "@fontsource/jomolhari";
 
 const Home: NextPage = () => {
   return (
