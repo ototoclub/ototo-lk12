@@ -25,6 +25,7 @@
     "@types/react": "17.0.39",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
+    "eslint-plugin-unicorn": "^41.0.1",
     "git-cz": "^4.8.0",
     "husky": "^7.0.0",
     "lint-staged": ">=10",

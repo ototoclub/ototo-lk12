@@ -29,30 +29,6 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Coming Soon</h1>
       </main>
 
-      <div>Hello</div>
-
-      <Button variant="primary">
-        <Text fontWeight="bold">JOIN DISCORD</Text>
-      </Button>
-
-      <Text
-        fontWeight="bold"
-        fontFamily="Karla"
-      >
-        HELLO WORLD
-      </Text>
-      <Text fontFamily="jomo">Hello World</Text>
-      <pkkkjj>HELLO WORLD</pkkkjj>
-      <div
-        style={{
-          width: "350px",
-          height: "350px",
-          padding: "20px",
-          backgroundColor: "black",
-        }}
-      >
-        <Button variant="outlined">HELLO</Button>
-      </div>
       <footer className={styles.footer}>
         <a
           href="https://www.twitter.com/ototoclub"
