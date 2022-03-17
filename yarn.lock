@@ -755,6 +755,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/jomolhari@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/jomolhari/-/jomolhari-4.5.2.tgz#afa86290209e5c6d1830484c493e7d25a2a85b6e"
+  integrity sha512-73UczkONNrtu3EXcbJz7kwjuu9gexc2tXyydQ+rzDSMAfREMkMpts9IV+P1jr6t1nFKry1Mid0CPS9YpFQbrSg==
+
+"@fontsource/karla@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/karla/-/karla-4.5.3.tgz#005b0211822fc127dfd8a83d5ceac693ae618139"
+  integrity sha512-fDpX75Jdx/YzE5Hcw2oGKiG6lrX+cP7GltbmPLCDShHYxD/wK7okU698JPo/kwaXrDflR+u4bhUCJ8xlFiB6yA==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
