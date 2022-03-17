@@ -1,7 +1,7 @@
 import { extendTheme } from "@chakra-ui/react";
 import { whiten } from "@chakra-ui/theme-tools";
 import "@fontsource/karla";
-
+import "@fontsource/jomolhari";
 
 const colors = {
   primary: "#44EECC",
@@ -21,8 +21,8 @@ const ButtonStyle = {
         boxShadow: "md",
         transform: "scale(1.02)",
       },
-			fontFamily: "Karla",
-		},
+      fontFamily: "Karla",
+    },
     outlined: {
       bg: "transparent",
       border: "2px solid",
@@ -39,12 +39,13 @@ const ButtonStyle = {
 };
 
 export const FONT = {
-	body: "Karla, sans-serif",
-}
+  body: "Karla, sans-serif",
+  jomo: "Jomolhari, Karla",
+};
 
 export const OTOTO_THEME = extendTheme({
   colors,
-	fonts: FONT,
+  fonts: FONT,
   components: {
     Button: ButtonStyle,
   },

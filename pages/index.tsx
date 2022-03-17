@@ -4,6 +4,7 @@ import Image from "next/image";
 import ototoclub from "../public/images/ototoclub.png";
 import styles from "../styles/Home.module.css";
 import { Button, Text } from "@chakra-ui/react";
+import "@fontsource/jomolhari";
 
 const Home: NextPage = () => {
   return (
@@ -30,13 +31,19 @@ const Home: NextPage = () => {
 
       <div>Hello</div>
 
-			<Button variant="primary"><Text fontWeight="bold">JOIN DISCORD</Text></Button>
+      <Button variant="primary">
+        <Text fontWeight="bold">JOIN DISCORD</Text>
+      </Button>
 
-
-			<Text fontWeight="bold" fontFamily="Karla">HELLO WORLD</Text>
-			<Text >HELLO WORLD</Text>
-
-			<div
+      <Text
+        fontWeight="bold"
+        fontFamily="Karla"
+      >
+        HELLO WORLD
+      </Text>
+      <Text fontFamily="jomo">Hello World</Text>
+      <pkkkjj>HELLO WORLD</pkkkjj>
+      <div
         style={{
           width: "350px",
           height: "350px",
