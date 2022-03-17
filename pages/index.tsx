@@ -5,6 +5,7 @@ import ototoclub from "../public/images/ototoclub.png";
 import styles from "../styles/Home.module.css";
 import { Button, Text } from "@chakra-ui/react";
 import "@fontsource/jomolhari";
+import OtotoHeader from "../components/ototo-header/ototo-header";
 
 const Home: NextPage = () => {
   return (
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
           src={ototoclub}
           alt="Ototo Club"
         />
-        <h1 className={styles.title}>Coming Soon</h1>
+        <OtotoHeader>OTOTO LK12</OtotoHeader>
       </main>
 
       <footer className={styles.footer}>

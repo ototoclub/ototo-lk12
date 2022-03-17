@@ -40,7 +40,8 @@ const ButtonStyle = {
 
 export const FONT = {
   body: "Karla, sans-serif",
-  jomo: "Jomolhari, Karla",
+  jomo: "Jomolhari, sans-serif",
+  heading: "Sofia Pro, sans-serif",
 };
 
 export const OTOTO_THEME = extendTheme({
