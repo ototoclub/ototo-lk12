@@ -31,8 +31,16 @@ const Home: NextPage = () => {
       <div>Hello</div>
 
       <Button variant="primary"> Hello World </Button>
-      <Button variant="outlined">HELLO</Button>
-
+      <div
+        style={{
+          width: "350px",
+          height: "350px",
+          padding: "20px",
+          backgroundColor: "black",
+        }}
+      >
+        <Button variant="outlined">HELLO</Button>
+      </div>
       <footer className={styles.footer}>
         <a
           href="https://www.twitter.com/ototoclub"
