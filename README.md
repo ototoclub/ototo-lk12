@@ -3,22 +3,27 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Set Up
 
 ### Prerequisites
+
 - You'll need to have `yarn` installed.
 - You'll also need to have `node` installed on your machine
 - `node` version >= 12.0.0
+
 ```bash
 yarn install
 # and then to run it in dev mode
 yarn dev
 ```
 
+## Notes
+
+- File Format: files must be in `kebab-case`: `foo-bar.tsx`
+- File Structure: `components`: contains all components `utils`: contains all utility functions `pages`: contains all pages
+
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
