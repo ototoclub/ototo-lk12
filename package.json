@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint-fix": "eslint --cache --fix",
+    "lint": "eslint --cache",
+    "prettier": "npx prettier --check .",
+    "prettier-fix": "npx prettier --write .",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -34,5 +37,10 @@
   "lint-staged": {
     "*.{js,tsx}": "eslint --cache --fix",
     "*.{js,css,md,tsx,ts}": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
