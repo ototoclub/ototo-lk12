@@ -19,6 +19,7 @@
     "@fontsource/jomolhari": "^4.5.2",
     "@fontsource/karla": "^4.5.3",
     "framer-motion": "^6",
+    "git-hook": "^0.2.2",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -39,4 +40,3 @@
     "*.{js,css,md,tsx,ts}": "prettier --write"
   }
 }
-
