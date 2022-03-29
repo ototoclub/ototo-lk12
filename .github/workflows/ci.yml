@@ -1,23 +1,18 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
-# Controls when the action will run.
 name: CI
+
 on: pull_request
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Steps represent a sequence of tasks that will be executed as part of the job
       - uses: actions/checkout@v2
       - uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: install # will run `yarn install` command
+          cmd: install
       - uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: prettier # will run `yarn prettier` command
+          cmd: prettierc
        - uses: borales/actions-yarn@v2.3.0
         with:
-          cmd: lint # will run `yarn lint` command
+          cmd: lint
