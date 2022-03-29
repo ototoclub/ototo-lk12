@@ -3,29 +3,21 @@
 
 # Controls when the action will run.
 name: CI
-
 on: pull_request
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [17.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
       # Steps represent a sequence of tasks that will be executed as part of the job
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: borales/actions-yarn@v2.3.0
+      - uses: borales/actions-yarn@v2.3.0
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-      - name: Install Package
-        run: yarn install --frozen-lockfile
-      - name: Run prettier
-        run: yarn run prettier
-      - name: Run Eslint
-        run: yarn run lint
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: prettier # will run `yarn prettier` command
+       - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: lint # will run `yarn lint` command
