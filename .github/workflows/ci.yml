@@ -26,6 +26,6 @@ jobs:
       - name: Install Package
         run: yarn install
       - name: Run prettier
-        run: npm run prettier
+        run: yarn run prettier
       - name: Run Eslint
-        run: npm run lint
+        run: yarn run lint
