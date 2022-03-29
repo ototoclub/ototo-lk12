@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   build:
-    name: Test on node ${{ matrix.node-version }} and ubuntu-latestc
+    name: Test on node ${{ matrix.node-version }} and ubuntu-latestcl
     runs-on: ubuntu-latest
 
     strategy:
