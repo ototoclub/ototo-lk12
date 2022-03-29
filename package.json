@@ -8,8 +8,8 @@
     "start": "next start",
     "lint-fix": "eslint --cache --fix",
     "lint": "eslint --cache",
-    "prettier": "npx prettier --check .",
-    "prettier-fix": "npx prettier --write .",
+    "prettier": "prettier --check .",
+    "prettier-fix": "prettier --write .",
     "prepare": "husky install"
   },
   "dependencies": {
