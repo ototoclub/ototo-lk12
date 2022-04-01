@@ -16,9 +16,8 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: borales/actions-yarn@v2.3.0
     - name: install package
-      run: yarn install --fcrozen-lockfile
+      run: yarn install --frozen-lockfile
     - name: Linter
       run: yarn lint
     - name: Prettier
       run: yarn prettier
-    
