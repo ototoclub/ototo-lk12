@@ -2,6 +2,9 @@ name: CI
 
 on: pull_request
 
+env:
+  HUSKY: 0
+
 jobs:
   build:
     name: Test on node ${{ matrix.node-version }} and ubuntu-latestcl
