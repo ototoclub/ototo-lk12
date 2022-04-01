@@ -15,12 +15,12 @@ jobs:
         node-version: [12.x, 14.x, 16.x, 17.x]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: borales/actions-yarn@v2.3.0
-    - name: install package
-      run: yarn install --frozen-lockfile
-    - name: Linter
-      run: yarn lint
-    - name: Prettier
-      run: yarn prettier
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: borales/actions-yarn@v2.3.0
+      - name: install package
+        run: yarn install --frozen-lockfile
+      - name: Linter
+        run: yarn lint
+      - name: Prettier
+        run: yarn prettier
