@@ -1,0 +1,26 @@
+name: CI
+
+on: pull_request
+
+env:
+  HUSKY: 0
+
+jobs:
+  build:
+    name: Test on node ${{ matrix.node-version }} and ubuntu-latestcl
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x, 16.x, 17.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: borales/actions-yarn@v2.3.0
+      - name: install package
+        run: yarn install --frozen-lockfile
+      - name: Linter
+        run: yarn lint
+      - name: Prettier
+        run: yarn prettier
