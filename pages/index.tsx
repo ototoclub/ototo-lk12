@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import ototoclub from '../public/images/ototoclub.png';
 import styles from '../styles/Home.module.css';
+import Nav from '../components/nav/nav';
 
 const Home: NextPage = () => {
   return (
@@ -19,11 +20,8 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <main className={styles.main}>
-        <Image
-          src={ototoclub}
-          alt="Ototo Club"
-        />
+      <main>
+        <Nav />
       </main>
 
       <footer className={styles.footer}>
@@ -32,7 +30,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ototo Club © {new Date().getFullYear()}
+          Ototo fadsbfh Club © {new Date().getFullYear()}
         </a>
       </footer>
     </div>
